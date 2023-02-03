@@ -9,7 +9,7 @@ import { MessageService } from '../appServices/message.service';
 })
 export class Card2Component implements OnInit {
   constructor(private _msgService: DesignUtilityService) {}
-
+  product = 'card2';
   ngOnInit() {}
 
   // btnClick() {
@@ -18,6 +18,6 @@ export class Card2Component implements OnInit {
   // }
 
   btnClick() {
-    this._msgService.msgAlert("Card 2 alert call");
+    this._msgService.msgAlert('Card 2 alert call');
   }
 }
