@@ -9,5 +9,5 @@ export class DesignUtilityService {
   }
 
   //product = 'Mobile';
-  product = { name: 'Mobile', id: '1' };
+  product = { name: 'Mobile', aaaa: '1' };
 }
