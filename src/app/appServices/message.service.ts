@@ -3,7 +3,7 @@ import { Injectable } from '@angular/core';
 @Injectable()
 export class MessageService {
   constructor() {}
-  msgAlert(str) {
+  msgAlert(str: string) {
     alert(str);
   }
 }

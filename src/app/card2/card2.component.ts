@@ -13,6 +13,6 @@ export class Card2Component implements OnInit {
 
   btnClick() {
     const msg = new MessageService();
-    msg.msgAlert();
+    msg.msgAlert('Card 2 alert');
   }
 }

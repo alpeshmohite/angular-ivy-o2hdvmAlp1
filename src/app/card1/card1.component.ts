@@ -12,6 +12,6 @@ export class Card1Component implements OnInit {
   ngOnInit() {}
   btnClick() {
     const msg = new MessageService();
-    msg.msgAlert();
+    msg.msgAlert("Card 1 alert");
   }
 }
