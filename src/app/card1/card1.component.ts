@@ -18,5 +18,6 @@ export class Card1Component implements OnInit {
 
   btnClick() {
     this._msgService.msgAlert('Card 1 alert call');
+    this._msgService.product = "";
   }
 }

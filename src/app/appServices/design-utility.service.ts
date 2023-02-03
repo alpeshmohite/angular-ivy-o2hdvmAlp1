@@ -7,5 +7,6 @@ export class DesignUtilityService {
   msgAlert(str: string) {
     alert(str);
   }
-  
+
+  product = 'Laptop';
 }
