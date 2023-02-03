@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { DesignUtilityService } from '../appServices/design-utility.service';
 import { MessageService } from '../appServices/message.service';
 
 @Component({
@@ -7,12 +8,16 @@ import { MessageService } from '../appServices/message.service';
   styleUrls: ['./card2.component.css'],
 })
 export class Card2Component implements OnInit {
-  constructor() {}
+  constructor(private _msgService: DesignUtilityService) {}
 
   ngOnInit() {}
 
+  // btnClick() {
+  //   const msg = new MessageService();
+  //   msg.msgAlert('Card 2 alert');
+  // }
+
   btnClick() {
-    const msg = new MessageService();
-    msg.msgAlert('Card 2 alert');
+    this._msgService.msgAlert("Card 2 alert call");
   }
 }
