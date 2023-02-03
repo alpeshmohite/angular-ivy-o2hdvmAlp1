@@ -11,5 +11,8 @@ export class Card2Component implements OnInit {
 
   ngOnInit() {
   }
+  msgAlert() {
+    alert('My first service.');
+  }
 
 }
