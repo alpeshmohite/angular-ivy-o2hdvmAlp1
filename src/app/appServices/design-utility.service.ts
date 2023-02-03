@@ -8,5 +8,6 @@ export class DesignUtilityService {
     alert(str);
   }
 
-  product = 'Laptop';
+  //product = 'Mobile';
+  product = { name: 'Mobile', id: '1' };
 }

@@ -9,8 +9,10 @@ import { MessageService } from '../appServices/message.service';
 })
 export class Card2Component implements OnInit {
   constructor(private _msgService: DesignUtilityService) {}
-  product = 'card2';
-  ngOnInit() {}
+  product = 'card2 title';
+  ngOnInit() {
+    this.product = this._msgService.product;
+  }
 
   // btnClick() {
   //   const msg = new MessageService();
