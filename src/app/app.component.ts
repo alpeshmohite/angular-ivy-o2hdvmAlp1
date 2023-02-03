@@ -7,4 +7,5 @@ import { Component, VERSION } from '@angular/core';
 })
 export class AppComponent  {
   name = 'Angular check with live ' + VERSION.major;
+  name1 = 'alpesh';
 }
