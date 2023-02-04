@@ -8,6 +8,6 @@ export class DesignUtilityService {
     alert(str);
   }
 
-  //product = 'Mobile';
-  product = { name: 'Mobile', aaaa: '1' };
+  product = 'Mobile';
+  //product = { name: 'Mobile', aaaa: '1' };
 }
