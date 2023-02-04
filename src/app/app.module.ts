@@ -12,6 +12,8 @@ import { DesignUtilityService } from './appServices/design-utility.service';
 import { Card3Component } from './card3/card3.component';
 import { Card4Component } from './card4/card4.component';
 
+import { CardComponent } from './card/card.component';
+
 @NgModule({
   imports: [BrowserModule, FormsModule],
   declarations: [
@@ -21,6 +23,7 @@ import { Card4Component } from './card4/card4.component';
     Card2Component,
     Card3Component,
     Card4Component,
+    CardComponent,
   ],
   providers: [DesignUtilityService],
   bootstrap: [AppComponent],

@@ -7,9 +7,12 @@ import { DesignUtilityService } from '../appServices/design-utility.service';
   styleUrls: ['./card3.component.css'],
 })
 export class Card3Component implements OnInit {
+  product = 'test card product';
   constructor(private _message: DesignUtilityService) {}
 
-  ngOnInit() {}
+  ngOnInit() {
+    this.product = this._message.product.name;
+  }
 
   showMessage() {
     // alert('Card 3 call');

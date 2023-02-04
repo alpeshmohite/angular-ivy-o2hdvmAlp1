@@ -11,7 +11,7 @@ export class Card1Component implements OnInit {
   constructor(private _msgService: DesignUtilityService) {}
   product: any;
   ngOnInit() {
-    this.product = this._msgService.product.name;
+    //this.product = this._msgService.product.name;
   }
   // btnClick() {
   //   const msg = new MessageService();
