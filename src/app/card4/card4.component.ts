@@ -11,7 +11,7 @@ export class Card4Component implements OnInit {
   constructor(private _message: DesignUtilityService) {}
 
   ngOnInit() {
-    this.product = this._message.product.id;
+    //this.product = this._message.product.id;
   }
   showMessage() {
     //alert('Card 4 called.');

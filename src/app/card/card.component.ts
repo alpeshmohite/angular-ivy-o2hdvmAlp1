@@ -7,8 +7,8 @@ import { DesignUtilityService } from '../appServices/design-utility.service';
   styleUrls: ['./card.component.css'],
 })
 export class CardComponent implements OnInit {
+  product1 : "test";
   constructor(private _obj: DesignUtilityService) {}
 
   ngOnInit() {}
-  
 }

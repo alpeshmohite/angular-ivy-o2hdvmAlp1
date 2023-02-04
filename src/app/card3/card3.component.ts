@@ -11,7 +11,7 @@ export class Card3Component implements OnInit {
   constructor(private _message: DesignUtilityService) {}
 
   ngOnInit() {
-    this.product = this._message.product.name;
+    //this.product = this._message.product.name;
   }
 
   showMessage() {
