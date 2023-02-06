@@ -14,6 +14,7 @@ import { Card4Component } from './card4/card4.component';
 
 import { CardComponent } from './card/card.component';
 import { NgContentComponent } from './ng-content/ng-content.component';
+import { NgContentCallComponent } from './ng-content-call/ng-content-call.component';
 
 @NgModule({
   imports: [BrowserModule, FormsModule],
@@ -26,6 +27,7 @@ import { NgContentComponent } from './ng-content/ng-content.component';
     Card4Component,
     CardComponent,
     NgContentComponent,
+    NgContentCallComponent,
   ],
   providers: [DesignUtilityService],
   bootstrap: [AppComponent],
