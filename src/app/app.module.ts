@@ -13,6 +13,7 @@ import { Card3Component } from './card3/card3.component';
 import { Card4Component } from './card4/card4.component';
 
 import { CardComponent } from './card/card.component';
+import { NgContentComponent } from './ng-content/ng-content.component';
 
 @NgModule({
   imports: [BrowserModule, FormsModule],
@@ -24,6 +25,7 @@ import { CardComponent } from './card/card.component';
     Card3Component,
     Card4Component,
     CardComponent,
+    NgContentComponent,
   ],
   providers: [DesignUtilityService],
   bootstrap: [AppComponent],
