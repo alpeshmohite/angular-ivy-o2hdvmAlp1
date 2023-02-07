@@ -15,7 +15,7 @@ import { Card4Component } from './card4/card4.component';
 import { CardComponent } from './card/card.component';
 import { NgContentComponent } from './ng-content/ng-content.component';
 import { NgContentCallComponent } from './ng-content-call/ng-content-call.component';
-import { NgContainerExampleComponent } from './ng-container-example/ng-container-example.component';
+import { ProductComponent } from '../product/product.component';
 
 @NgModule({
   imports: [BrowserModule, FormsModule],
@@ -29,7 +29,7 @@ import { NgContainerExampleComponent } from './ng-container-example/ng-container
     CardComponent,
     NgContentComponent,
     NgContentCallComponent,
-    NgContainerExampleComponent,
+    ProductComponent,
   ],
   providers: [DesignUtilityService],
   bootstrap: [AppComponent],
